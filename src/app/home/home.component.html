@@ -1,0 +1,32 @@
+<header>
+
+  <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+    <div class="position-sticky">
+      <div class="list-group list-group-flush mx-3 mt-4">
+
+        <!-- <a href="#" class="list-group-item list-group-item-action py-2 ripple active">
+          <i class="fas fa-chart-area fa-fw me-3"></i><span>Home</span>
+        </a> -->
+        <a [routerLink]="['/home/entry']" class="list-group-item list-group-item-action py-2 ripple "><i
+            class="fas fa-lock fa-fw me-3"></i><span>Expense Entry</span></a>
+        <a [routerLink]="['/home/view']" class="list-group-item list-group-item-action py-2 ripple"><i
+            class="fas fa-chart-line fa-fw me-3"></i><span>Expense View</span></a>
+        <a [routerLink]="['/home/catagory']" class="list-group-item list-group-item-action py-2 ripple">
+          <i class="fas fa-chart-pie fa-fw me-3"></i><span>Add Categories</span>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+</header>
+
+<main style="margin-top: 58px">
+  <div class="container pt-4">
+
+  </div>
+</main>
+
+<router-outlet></router-outlet>
